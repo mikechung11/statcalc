@@ -1,0 +1,14 @@
+C:\Projects_test\MFF\StatCalc\StatCalc\bin\Debug\netcoreapp2.1\StatCalc.deps.json
+C:\Projects_test\MFF\StatCalc\StatCalc\bin\Debug\netcoreapp2.1\StatCalc.runtimeconfig.json
+C:\Projects_test\MFF\StatCalc\StatCalc\bin\Debug\netcoreapp2.1\StatCalc.runtimeconfig.dev.json
+C:\Projects_test\MFF\StatCalc\StatCalc\bin\Debug\netcoreapp2.1\StatCalc.dll
+C:\Projects_test\MFF\StatCalc\StatCalc\bin\Debug\netcoreapp2.1\StatCalc.pdb
+C:\Projects_test\MFF\StatCalc\StatCalc\obj\Debug\netcoreapp2.1\StatCalc.csprojAssemblyReference.cache
+C:\Projects_test\MFF\StatCalc\StatCalc\obj\Debug\netcoreapp2.1\StatCalc.csproj.CoreCompileInputs.cache
+C:\Projects_test\MFF\StatCalc\StatCalc\obj\Debug\netcoreapp2.1\StatCalc.RazorAssemblyInfo.cache
+C:\Projects_test\MFF\StatCalc\StatCalc\obj\Debug\netcoreapp2.1\StatCalc.RazorAssemblyInfo.cs
+C:\Projects_test\MFF\StatCalc\StatCalc\obj\Debug\netcoreapp2.1\StatCalc.AssemblyInfoInputs.cache
+C:\Projects_test\MFF\StatCalc\StatCalc\obj\Debug\netcoreapp2.1\StatCalc.AssemblyInfo.cs
+C:\Projects_test\MFF\StatCalc\StatCalc\obj\Debug\netcoreapp2.1\StatCalc.RazorTargetAssemblyInfo.cache
+C:\Projects_test\MFF\StatCalc\StatCalc\obj\Debug\netcoreapp2.1\StatCalc.dll
+C:\Projects_test\MFF\StatCalc\StatCalc\obj\Debug\netcoreapp2.1\StatCalc.pdb

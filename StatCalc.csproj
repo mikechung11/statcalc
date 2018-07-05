@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <TypeScriptToolsVersion>2.8</TypeScriptToolsVersion>
+    <TypeScriptCompilerBlocked>true</TypeScriptCompilerBlocked>
+    <PostBuildEvent>ng build --aot</PostBuildEvent>
   </PropertyGroup>
 
   <ItemGroup>
