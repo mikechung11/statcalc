@@ -11506,23 +11506,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\michaelc\\.nuget\\packages\\": {},
+    "C:\\Users\\Blue\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects_test\\MFF\\StatCalc\\StatCalc\\StatCalc.csproj",
+      "projectUniqueName": "G:\\Code\\repos\\projects\\StatCalc\\statcalc\\StatCalc.csproj",
       "projectName": "StatCalc",
-      "projectPath": "C:\\Projects_test\\MFF\\StatCalc\\StatCalc\\StatCalc.csproj",
-      "packagesPath": "C:\\Users\\michaelc\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects_test\\MFF\\StatCalc\\StatCalc\\obj\\",
+      "projectPath": "G:\\Code\\repos\\projects\\StatCalc\\statcalc\\StatCalc.csproj",
+      "packagesPath": "C:\\Users\\Blue\\.nuget\\packages\\",
+      "outputPath": "G:\\Code\\repos\\projects\\StatCalc\\statcalc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\michaelc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Blue\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
