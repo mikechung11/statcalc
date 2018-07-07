@@ -1,5 +1,4 @@
-import { Component, Inject } from '@angular/core';
-import { Http } from '@angular/http';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,12 +6,6 @@ import { Http } from '@angular/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
-  public values: string[];
+  title = 'MFF working title'; // Change title - michaelc
 
-  constructor(private http: Http) {
-    this.http.get('api/values').subscribe(result => {
-      this.values = result.json() as string[];
-    }, error => console.error(error));
-  }
 }
