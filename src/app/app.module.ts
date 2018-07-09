@@ -5,11 +5,13 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { StatsComponent } from './stats/stats.component';
+import { CardsComponent } from './cards/cards.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StatsComponent
+    StatsComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,
