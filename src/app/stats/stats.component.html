@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <th>Name</th>
+    <th style="text-align: left">Name</th>
     <th>Current</th>
     <th>Buffs</th>
     <th>Difference</th>
@@ -36,3 +36,8 @@
     <td>0</td>
   </tr>
 </table>
+
+<form style="padding-top: 2em">
+  <label for="allianceCheck">Alliance Level 30: </label>
+  <input [(ngModel)]="isChecked" (change)="onCheck()" type="checkbox" name="allianceCheck" />
+</form>

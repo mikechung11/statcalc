@@ -13,6 +13,10 @@
 
   <ItemGroup>
     <Folder Include="Controllers\api\" />
+    <None Remove="src\app\card.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
@@ -22,6 +26,7 @@
 
   <ItemGroup>
     <TypeScriptCompile Include="src\app\stats.ts" />
+    <TypeScriptCompile Include="src\app\card.ts" />
   </ItemGroup>
 
 </Project>
