@@ -25,3 +25,4 @@ C:\Projects_test\MFF\StatCalc\StatCalc\obj\Debug\netcoreapp2.1\StatCalc.Assembly
 C:\Projects_test\MFF\StatCalc\StatCalc\obj\Debug\netcoreapp2.1\StatCalc.RazorTargetAssemblyInfo.cache
 C:\Projects_test\MFF\StatCalc\StatCalc\obj\Debug\netcoreapp2.1\StatCalc.dll
 C:\Projects_test\MFF\StatCalc\StatCalc\obj\Debug\netcoreapp2.1\StatCalc.pdb
+C:\Projects_test\MFF\StatCalc\StatCalc\obj\Debug\netcoreapp2.1\StatCalc.csprojAssemblyReference.cache
