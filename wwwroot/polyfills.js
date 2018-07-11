@@ -5473,7 +5473,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Projects_test\MFF\StatCalc\StatCalc\src\polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! C:\Projects_test\MFF\StatCalc\StatCalc.Web\src\polyfills.ts */"./src/polyfills.ts");
 
 
 /***/ })

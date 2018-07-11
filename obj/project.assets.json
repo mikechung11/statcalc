@@ -12232,11 +12232,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects_test\\MFF\\StatCalc\\StatCalc\\StatCalc.csproj",
-      "projectName": "StatCalc",
-      "projectPath": "C:\\Projects_test\\MFF\\StatCalc\\StatCalc\\StatCalc.csproj",
+      "projectUniqueName": "C:\\Projects_test\\MFF\\StatCalc\\StatCalc.Web\\StatCalc.Web.csproj",
+      "projectName": "StatCalc.Web",
+      "projectPath": "C:\\Projects_test\\MFF\\StatCalc\\StatCalc.Web\\StatCalc.Web.csproj",
       "packagesPath": "C:\\Users\\michaelc\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects_test\\MFF\\StatCalc\\StatCalc\\obj\\",
+      "outputPath": "C:\\Projects_test\\MFF\\StatCalc\\StatCalc.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
