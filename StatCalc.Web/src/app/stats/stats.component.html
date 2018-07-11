@@ -1,0 +1,43 @@
+<table>
+  <tr>
+    <th style="text-align: left">Name</th>
+    <th>Current</th>
+    <th>Buffs</th>
+    <th>Difference</th>
+  </tr>
+  <tr>
+    <td>Skill Cooldown</td>
+    <td>{{baseStats.scd + buffStats.scd}}%</td>
+    <td>(+{{buffStats.scd}}%)</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Ignore Defense</td>
+    <td>{{baseStats.igdef + buffStats.igdef}}%</td>
+    <td>(+{{buffStats.igdef}}%)</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Attack Speed</td>
+    <td>{{baseStats.aspd + buffStats.aspd}}%</td>
+    <td>(+{{buffStats.aspd}}%)</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Critical Rate</td>
+    <td>{{baseStats.crtrate + buffStats.crtrate}}%</td>
+    <td>(+{{buffStats.crtrate}}%)</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Critical Damage</td>
+    <td>{{baseStats.crtdmg + buffStats.crtdmg}}%</td>
+    <td>(+{{buffStats.crtdmg}}%)</td>
+    <td>0</td>
+  </tr>
+</table>
+
+<form style="padding-top: 2em">
+  <label for="allianceCheck">Alliance Level 30: </label>
+  <input [(ngModel)]="isChecked" (change)="onCheck()" type="checkbox" name="allianceCheck" />
+</form>
