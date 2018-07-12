@@ -1,4 +1,6 @@
 export class Card {
+  name: string;
+  premium: boolean;
   rank: number;
   grade: number;
   stat1: string;

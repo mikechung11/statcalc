@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="src\app\mock-cards.ts" />
     <None Remove="src\app\stats.ts" />
     <None Remove="src\app\card.ts" />
   </ItemGroup>
@@ -25,6 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="src\app\mock-cards.ts" />
     <TypeScriptCompile Include="src\app\stats.ts" />
     <TypeScriptCompile Include="src\app\card.ts" />
   </ItemGroup>

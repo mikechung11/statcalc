@@ -155,7 +155,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h3>Cards:</h3>\r\n<table>\r\n  <tr>\r\n    <th>Card 1</th>\r\n    <th>Card 2</th>\r\n    <th>Card 3</th>\r\n    <th>Card 4</th>\r\n    <th>Card 5</th>\r\n  </tr>\r\n</table>\r\n"
+module.exports = "<h3>Cards:</h3>\r\n<table style=\"display:inline-block\">\r\n  <tr>\r\n    <th>Card 1</th>\r\n  </tr>\r\n  <tr><td>{{card1.name}}</td></tr>\r\n  <tr><td>Rank: {{rank}}</td><td>Grade</td></tr>\r\n  <tr><td>Stat1</td><td>{{stat1}}%</td></tr>\r\n  <tr><td>Stat2</td><td>{{stat2}}%</td></tr>\r\n  <tr><td>Stat3</td><td>{{stat3}}%</td></tr>\r\n  <tr><td>Stat4</td><td>{{stat4}}%</td></tr>\r\n  <tr><td>Stat5</td><td>{{stat5}}%</td></tr>\r\n  <tr><td>Stat6</td><td>{{stat6}}%</td></tr>\r\n</table>\r\n<table style=\"display:inline-block\">\r\n  <tr>\r\n    <th>Card 2</th>\r\n  </tr>\r\n  <tr><td>Name</td></tr>\r\n  <tr><td>Rank: {{rank}}</td><td>Grade</td></tr>\r\n  <tr><td>Stat1</td><td>{{stat1}}%</td></tr>\r\n  <tr><td>Stat2</td><td>{{stat2}}%</td></tr>\r\n  <tr><td>Stat3</td><td>{{stat3}}%</td></tr>\r\n  <tr><td>Stat4</td><td>{{stat4}}%</td></tr>\r\n  <tr><td>Stat5</td><td>{{stat5}}%</td></tr>\r\n  <tr><td>Stat6</td><td>{{stat6}}%</td></tr>\r\n</table>\r\n<table style=\"display:inline-block\">\r\n  <tr>\r\n    <th>Card 3</th>\r\n  </tr>\r\n  <tr><td>Name</td></tr>\r\n  <tr><td>Rank: {{rank}}</td><td>Grade</td></tr>\r\n  <tr><td>Stat1</td><td>{{stat1}}%</td></tr>\r\n  <tr><td>Stat2</td><td>{{stat2}}%</td></tr>\r\n  <tr><td>Stat3</td><td>{{stat3}}%</td></tr>\r\n  <tr><td>Stat4</td><td>{{stat4}}%</td></tr>\r\n  <tr><td>Stat5</td><td>{{stat5}}%</td></tr>\r\n  <tr><td>Stat6</td><td>{{stat6}}%</td></tr>\r\n</table>\r\n<table style=\"display:inline-block\">\r\n  <tr>\r\n    <th>Card 4</th>\r\n  </tr>\r\n  <tr><td>Name</td></tr>\r\n  <tr><td>Rank: {{rank}}</td><td>Grade</td></tr>\r\n  <tr><td>Stat1</td><td>{{stat1}}%</td></tr>\r\n  <tr><td>Stat2</td><td>{{stat2}}%</td></tr>\r\n  <tr><td>Stat3</td><td>{{stat3}}%</td></tr>\r\n  <tr><td>Stat4</td><td>{{stat4}}%</td></tr>\r\n  <tr><td>Stat5</td><td>{{stat5}}%</td></tr>\r\n  <tr><td>Stat6</td><td>{{stat6}}%</td></tr>\r\n</table>\r\n<table style=\"display:inline-block\">\r\n  <tr>\r\n    <th>Card 5</th>\r\n  </tr>\r\n  <tr><td>Name</td></tr>\r\n  <tr><td>Rank: {{rank}}</td><td>Grade</td></tr>\r\n  <tr><td>Stat1</td><td>{{stat1}}%</td></tr>\r\n  <tr><td>Stat2</td><td>{{stat2}}%</td></tr>\r\n  <tr><td>Stat3</td><td>{{stat3}}%</td></tr>\r\n  <tr><td>Stat4</td><td>{{stat4}}%</td></tr>\r\n  <tr><td>Stat5</td><td>{{stat5}}%</td></tr>\r\n  <tr><td>Stat6</td><td>{{stat6}}%</td></tr>\r\n</table>\r\n"
 
 /***/ }),
 
@@ -170,6 +170,7 @@ module.exports = "<h3>Cards:</h3>\r\n<table>\r\n  <tr>\r\n    <th>Card 1</th>\r\
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CardsComponent", function() { return CardsComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _mock_cards__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../mock-cards */ "./src/app/mock-cards.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -180,8 +181,15 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var CardsComponent = /** @class */ (function () {
     function CardsComponent() {
+        this.card1 = _mock_cards__WEBPACK_IMPORTED_MODULE_1__["Cards"][0];
+        this.rank = 6;
+        this.stat3 = 5.1;
+        this.stat4 = 5.4;
+        this.stat5 = 5.7;
+        this.stat6 = 6;
     }
     CardsComponent.prototype.ngOnInit = function () {
     };
@@ -196,6 +204,45 @@ var CardsComponent = /** @class */ (function () {
     return CardsComponent;
 }());
 
+
+
+/***/ }),
+
+/***/ "./src/app/mock-cards.ts":
+/*!*******************************!*\
+  !*** ./src/app/mock-cards.ts ***!
+  \*******************************/
+/*! exports provided: Cards */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Cards", function() { return Cards; });
+var Cards = [
+    {
+        name: "Guardians of the Galaxy:Best Story Ever #1 (2015)",
+        premium: true,
+        rank: 6,
+        grade: 7,
+        stat1: "All Attack",
+        stat2: "Max HP",
+        stat3: "Attack Speed",
+        stat4: "Skill Cooldown",
+        stat5: "Energy Attack",
+        stat6: "Physical Attack"
+    }, {
+        name: "Loki #2 (2004)",
+        premium: true,
+        rank: 6,
+        grade: 7,
+        stat1: "Energy Attack",
+        stat2: "Ignore Defense",
+        stat3: "Skill Cooldown",
+        stat4: "Crit Rate",
+        stat5: "Crit Damage",
+        stat6: "All Attack"
+    }
+];
 
 
 /***/ }),
