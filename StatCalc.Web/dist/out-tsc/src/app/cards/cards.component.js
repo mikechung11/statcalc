@@ -10,8 +10,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
+var mock_cards_1 = require("../mock-cards");
 var CardsComponent = /** @class */ (function () {
     function CardsComponent() {
+        this.cards = mock_cards_1.Cards;
+        this.rank = 6;
+        this.stat3 = 5.1;
+        this.stat4 = 5.4;
+        this.stat5 = 5.7;
+        this.stat6 = 6;
     }
     CardsComponent.prototype.ngOnInit = function () {
     };

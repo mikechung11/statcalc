@@ -1,0 +1,9 @@
+C:\Projects_test\MFF\StatCalc\StatCalc.Data\bin\Debug\StatCalc.Data.dacpac
+C:\Projects_test\MFF\StatCalc\StatCalc.Data\bin\Debug\StatCalc.Data.dll
+C:\Projects_test\MFF\StatCalc\StatCalc.Data\bin\Debug\StatCalc.Data.pdb
+C:\Projects_test\MFF\StatCalc\StatCalc.Data\obj\Debug\Model.xml
+C:\Projects_test\MFF\StatCalc\StatCalc.Data\obj\Debug\refactor.xml
+C:\Projects_test\MFF\StatCalc\StatCalc.Data\obj\Debug\postdeploy.sql
+C:\Projects_test\MFF\StatCalc\StatCalc.Data\obj\Debug\predeploy.sql
+C:\Projects_test\MFF\StatCalc\StatCalc.Data\obj\Debug\StatCalc.Data.dll
+C:\Projects_test\MFF\StatCalc\StatCalc.Data\obj\Debug\StatCalc.Data.pdb

@@ -10,6 +10,7 @@ var platform_browser_1 = require("@angular/platform-browser");
 var core_1 = require("@angular/core");
 var http_1 = require("@angular/http");
 var forms_1 = require("@angular/forms");
+var ng_bootstrap_1 = require("@ng-bootstrap/ng-bootstrap");
 var app_component_1 = require("./app.component");
 var stats_component_1 = require("./stats/stats.component");
 var cards_component_1 = require("./cards/cards.component");
@@ -26,7 +27,8 @@ var AppModule = /** @class */ (function () {
             imports: [
                 platform_browser_1.BrowserModule,
                 http_1.HttpModule,
-                forms_1.FormsModule
+                forms_1.FormsModule,
+                ng_bootstrap_1.NgbModule.forRoot()
             ],
             providers: [],
             bootstrap: [app_component_1.AppComponent]
