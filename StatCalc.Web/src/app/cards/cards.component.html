@@ -1,18 +1,20 @@
 <h3>Cards:</h3>
-<div *ngFor="let card of cards; let i = index" style="display:inline-block; border:1px solid black">
-  <table>
-    <tr>
-      <th>Card {{i + 1}}</th>
-    </tr>
-    <tr><td>{{card.name}}</td></tr>
-  </table>
-  <table>
-    <tr><td>Rank: {{card.rank}}</td><td>Grade: {{card.grade}}</td></tr>
-    <tr><td>{{card.stat1}}</td><td>{{stat1}}%</td></tr>
-    <tr><td>{{card.stat2}}</td><td>{{stat2}}%</td></tr>
-    <tr><td>{{card.stat3}}</td><td>{{stat3}}%</td></tr>
-    <tr><td>{{card.stat4}}</td><td>{{stat4}}%</td></tr>
-    <tr><td>{{card.stat5}}</td><td>{{stat5}}%</td></tr>
-    <tr><td>{{card.stat6}}</td><td>{{stat6}}%</td></tr>
-  </table>
+<div *ngFor="let card of cards; let i = index" class="col-md-2" style="display:inline-block; border:1px solid black">
+  <div>
+    <table class="table">
+      <tr>
+        <th>Card {{i + 1}}</th>
+      </tr>
+      <tr><td>{{card.name}}</td></tr>
+    </table>
+    <table class="table">
+      <tr><td>Rank: {{card.rank}}</td><td>Grade: {{card.grade}}</td></tr>
+      <tr><td>{{card.stat1}}</td><td>{{stat1}}%</td></tr>
+      <tr><td>{{card.stat2}}</td><td>{{stat2}}%</td></tr>
+      <tr><td>{{card.stat3}}</td><td>{{stat3}}%</td></tr>
+      <tr><td>{{card.stat4}}</td><td>{{stat4}}%</td></tr>
+      <tr><td>{{card.stat5}}</td><td>{{stat5}}%</td></tr>
+      <tr><td>{{card.stat6}}</td><td>{{stat6}}%</td></tr>
+    </table>
+  </div>
 </div>
